@@ -32,6 +32,7 @@
     
     CGRect rect = CGRectMake(0, 0, 40, 40);
     UIGraphicsImageRenderer *renderer = [[UIGraphicsImageRenderer alloc] initWithSize:rect.size];
+    
     self.image = [renderer imageWithActions:^(UIGraphicsImageRendererContext * _Nonnull rendererContext) {
         // circle
         
@@ -60,4 +61,3 @@
 }
 
 @end
-

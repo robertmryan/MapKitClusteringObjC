@@ -6,10 +6,8 @@
 //  Copyright © 2019 Robert Ryan. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 @interface ViewController : UIViewController
 
-
 @end
-

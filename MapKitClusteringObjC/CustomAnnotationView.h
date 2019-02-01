@@ -6,12 +6,8 @@
 //  Copyright © 2019 Robert Ryan. All rights reserved.
 //
 
-#import <MapKit/MapKit.h>
-
-NS_ASSUME_NONNULL_BEGIN
+@import MapKit;
 
 @interface CustomAnnotationView : MKMarkerAnnotationView
 
 @end
-
-NS_ASSUME_NONNULL_END
