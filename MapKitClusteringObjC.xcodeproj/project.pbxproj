@@ -13,6 +13,8 @@
 		83EBA5932204E16000BE174E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83EBA5922204E16000BE174E /* Assets.xcassets */; };
 		83EBA5962204E16000BE174E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83EBA5942204E16000BE174E /* LaunchScreen.storyboard */; };
 		83EBA5992204E16000BE174E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EBA5982204E16000BE174E /* main.m */; };
+		83EBA5A12204E58D00BE174E /* ClusterAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EBA5A02204E58D00BE174E /* ClusterAnnotationView.m */; };
+		83EBA5A42204EA8C00BE174E /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EBA5A32204EA8C00BE174E /* CustomAnnotationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,11 @@
 		83EBA5952204E16000BE174E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83EBA5972204E16000BE174E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83EBA5982204E16000BE174E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83EBA59F2204E58D00BE174E /* ClusterAnnotationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClusterAnnotationView.h; sourceTree = "<group>"; };
+		83EBA5A02204E58D00BE174E /* ClusterAnnotationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClusterAnnotationView.m; sourceTree = "<group>"; };
+		83EBA5A22204EA8C00BE174E /* CustomAnnotationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomAnnotationView.h; sourceTree = "<group>"; };
+		83EBA5A32204EA8C00BE174E /* CustomAnnotationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotationView.m; sourceTree = "<group>"; };
+		83EBA5A52204F19900BE174E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +49,7 @@
 		83EBA57D2204E16000BE174E = {
 			isa = PBXGroup;
 			children = (
+				83EBA5A52204F19900BE174E /* README.md */,
 				83EBA5882204E16000BE174E /* MapKitClusteringObjC */,
 				83EBA5872204E16000BE174E /* Products */,
 			);
@@ -62,6 +70,10 @@
 				83EBA58A2204E16000BE174E /* AppDelegate.m */,
 				83EBA58C2204E16000BE174E /* ViewController.h */,
 				83EBA58D2204E16000BE174E /* ViewController.m */,
+				83EBA5A22204EA8C00BE174E /* CustomAnnotationView.h */,
+				83EBA5A32204EA8C00BE174E /* CustomAnnotationView.m */,
+				83EBA59F2204E58D00BE174E /* ClusterAnnotationView.h */,
+				83EBA5A02204E58D00BE174E /* ClusterAnnotationView.m */,
 				83EBA58F2204E16000BE174E /* Main.storyboard */,
 				83EBA5922204E16000BE174E /* Assets.xcassets */,
 				83EBA5942204E16000BE174E /* LaunchScreen.storyboard */,
@@ -143,6 +155,8 @@
 			files = (
 				83EBA58E2204E16000BE174E /* ViewController.m in Sources */,
 				83EBA5992204E16000BE174E /* main.m in Sources */,
+				83EBA5A42204EA8C00BE174E /* CustomAnnotationView.m in Sources */,
+				83EBA5A12204E58D00BE174E /* ClusterAnnotationView.m in Sources */,
 				83EBA58B2204E16000BE174E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
